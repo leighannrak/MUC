@@ -1,0 +1,4 @@
+#Mon Oct 21 03:10:13 EDT 2019
+base.0=/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

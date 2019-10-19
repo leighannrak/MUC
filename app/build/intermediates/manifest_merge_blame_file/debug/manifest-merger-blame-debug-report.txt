@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.muc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:7:5-30:19
+14        android:allowBackup="true"
+14-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/mehaagrawal/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity
+23-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:14:9-16:62
+24            android:name="com.example.muc.rating"
+24-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:15:13-35
+25            android:screenOrientation="landscape" />
+25-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:16:13-50
+26        <activity
+26-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:17:9-20:49
+27            android:name="com.example.muc.weather"
+27-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:18:13-36
+28            package="com.androdocs.weatherapp"
+28-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:20:13-47
+29            android:screenOrientation="landscape" />
+29-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:19:13-50
+30        <activity
+30-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:21:9-29:20
+31            android:name="com.example.muc.MainActivity"
+31-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:22:13-41
+32            android:screenOrientation="landscape" >
+32-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:23:13-50
+33            <intent-filter>
+33-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:25:17-69
+34-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:27:17-77
+36-->/Users/mehaagrawal/Documents/GatechClasses/fall19/cs4605/MUC/app/src/main/AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
