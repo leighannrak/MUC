@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MUC</string>
+    <string name="title_activity_weather">weather</string>
+    <string name="title_activity_rating">rating</string>
+</resources>
