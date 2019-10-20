@@ -19,15 +19,15 @@ public class rating extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rating);
 
-//        Button task = (Button)findViewById(R.id.mainscreen_button);
-//        task.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(rating.this, MainActivity.class);
-//                finish();
-//                startActivity(intent);
-//            }
-//        });
+        Button task = (Button)findViewById(R.id.mainscreen_button);
+        task.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(rating.this, MainActivity.class);
+                finish();
+                startActivity(intent);
+            }
+        });
     }
 
 }
